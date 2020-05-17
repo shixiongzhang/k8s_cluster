@@ -1,4 +1,4 @@
-#this is a test shell scripts so somewhere don not have notes，but after finished it I  will do note and have pretty scripts construction 
+##简单的通多kubeadm 实现单点k8s集群脚本
 #!/bin/bash
 TAG_INFO=v1.16.3
 sed -i "s/Slinux=enforing/Slinux=disabled/g" /etc/selinux/config
